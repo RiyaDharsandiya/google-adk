@@ -47,34 +47,6 @@ The AI Tutor System is a sophisticated multi-agent application designed to provi
 
 The Tutor Agent acts as the orchestrator, intelligently routing queries to the chosen sub-agent. Once a sub-agent processes the query (potentially using its specific tools), its response is seamlessly relayed back through the Tutor Agent to the user, providing a unified and intelligent tutoring experience.
 
-## Architecture Diagram (Conceptual)
-
-+----------------+       +----------------+
-|     User       |       |   Tutor Agent  |
-| (Student Query)|------>| (Main Interface)|
-+----------------+       +-------+--------+
-|
-|  Delegation of Query
-V
-+--------------------------------+
-|           Orchestration        |
-+--------------------------------+
-/          |           
-
-/           |            
-
-+------------+     +------------+     (More Agents...)
-| Math Agent |     | Physics Agent |
-+-----+------+     +-----+-------+
-|                  |
-|                  |
-+-----v----+       +-----v-----+
-| Calculator |     | Physics Constants |
-|   Tool   |       |   Lookup Tool   |
-+----------+       +-----------------+
-^                  ^
-|                  |
-+------------------+
 
 ## Setup Instructions
 
