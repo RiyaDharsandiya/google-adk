@@ -85,7 +85,6 @@ cd tutor_system
 adk web
 
 3.Access the Application:
-http://127.0.0.1:8000
 
 ###Live Deployed Application LINK
 
