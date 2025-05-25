@@ -55,15 +55,14 @@ Follow these steps to get the AI Tutor System running on your local machine.
 
 First, clone the project repository to your local machine:
 
-
 git clone [https://github.com/RiyaDharsandiya/google-adk.git](https://github.com/RiyaDharsandiya/google-adk.git)
 cd google-adk/tutor_system
 
-2. Create a Virtual Environment (Recommended)
+2.Create a Virtual Environment (Recommended)
 
 python -m venv .venv
 source .venv/bin/activate  # On Linux/macOS
-# .venv\Scripts\activate   # On Windows
+.venv\Scripts\activate   # On Windows
 
 3.Install Dependencies
 cd tutor_system
@@ -77,7 +76,7 @@ GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 How to Run Locally
 1.Ensure Virtual Environment is Active:
 source .venv/bin/activate  # On Linux/macOS
-# .venv\Scripts\activate   # On Windows
+.venv\Scripts\activate   # On Windows
 
 2.Start the ADK Web Application:
 cd tutor_system
