@@ -55,7 +55,7 @@ Follow these steps to get the AI Tutor System running on your local machine.
 
 First, clone the project repository to your local machine:
 
-```bash
+
 git clone [https://github.com/RiyaDharsandiya/google-adk.git](https://github.com/RiyaDharsandiya/google-adk.git)
 cd google-adk/tutor_system
 
