@@ -62,7 +62,8 @@ cd google-adk/tutor_system
 
 python -m venv .venv
 source .venv/bin/activate  # On Linux/macOS
-```bash .venv\Scripts\activate   # On Windows bash ```
+
+.venv\Scripts\activate   # On Windows 
 
 3.Install Dependencies
 cd tutor_system
@@ -76,6 +77,7 @@ GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 How to Run Locally
 1.Ensure Virtual Environment is Active:
 source .venv/bin/activate  # On Linux/macOS
+
 .venv\Scripts\activate   # On Windows
 
 2.Start the ADK Web Application:
