@@ -19,13 +19,6 @@ The AI Tutor System is a sophisticated multi-agent application designed to provi
 
 The Tutor Agent acts as the orchestrator, intelligently routing queries to the chosen sub-agent. Once a sub-agent processes the query (potentially using its specific tools), its response is seamlessly relayed back through the Tutor Agent to the user, providing a unified and intelligent tutoring experience.
 
-## Architecture Diagram (Conceptual)
-Okay, this is a fantastic project description! It clearly outlines the multi-agent architecture and the specific functionalities.
-
-Let's craft a comprehensive README.md file for your GitHub repository. I'll structure it to include all the requested sections, making it easy for anyone to understand, set up, and run your AI Tutor system.
-
-Markdown
-
 # AI Tutor System
 
 ## Project Description
