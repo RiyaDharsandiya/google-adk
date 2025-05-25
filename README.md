@@ -62,7 +62,7 @@ cd google-adk/tutor_system
 
 python -m venv .venv
 source .venv/bin/activate  # On Linux/macOS
-.venv\Scripts\activate   # On Windows
+```bash .venv\Scripts\activate   # On Windows bash ```
 
 3.Install Dependencies
 cd tutor_system
